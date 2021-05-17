@@ -1,0 +1,32 @@
+CLR
+RST $1
+INC
+RST $4
+MLD $1
+RST $2
+MLD $4
+RST $3
+SUB $2
+JMP 2
+21
+RLD $4
+RST $1
+INC
+RST $4
+SUB $0
+8
+JMP 4
+27
+JMP 0
+4
+RLD $3
+MST $1
+RLD $2
+MST $4
+JMP 0
+11
+CLR
+RST $1
+RST $4
+JMP 0
+4

@@ -1,0 +1,15 @@
+NOP
+CLR
+INC
+RST $2
+INC
+INC
+RST $3
+MLD $2
+RST $1
+MLD $3
+MST $2
+RLD $1
+MST $3
+JMP $0
+7

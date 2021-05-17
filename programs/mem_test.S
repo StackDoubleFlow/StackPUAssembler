@@ -1,0 +1,23 @@
+NOP
+MLD $0
+0
+RST $1
+MLD $0
+1
+RST $2
+MLD $0
+2
+RST $3
+MLD $0
+3
+MST $0
+3
+RLD $3
+MST $0
+2
+RLD $2
+MST $0
+1
+RLD $1
+MST $0
+0
